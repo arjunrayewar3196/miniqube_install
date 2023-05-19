@@ -1,1 +1,13 @@
+Take amazon linux w machine
+1. yum update -y
+2. amazon-linux-extras install docker -y   (or)  yum install docker -y
+After installation is done check the docker version using
+docker -v
+3. systemctl start docker
+systemctl status docker
+================== till here docker is done========
+     Next install contrack
+===================================================
+
+4. yum install conntrack -y
 
